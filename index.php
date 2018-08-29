@@ -1,10 +1,16 @@
-<html><body>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Arnold's web portfolio </title>
+    </head>
+    
+    <body>
 <?php
 // A simple web site in Cloud9 that runs through Apache
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo "Arnold Okumagba's CST336 site";
+echo " <h1> Arnold Okumagba's CST336 site </h1>";
 
 ?>
 </body>
