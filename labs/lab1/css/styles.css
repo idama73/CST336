@@ -1,0 +1,35 @@
+table{
+
+margin: 0px auto;
+}
+
+td{
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+td strong{
+    color: black;
+}
+
+#table-header {
+    background-color: #351a00;
+}
+
+.table-row {
+    
+    background-color: #753900;
+}
+
+
+ul{
+    text-align-last:left;
+    padding-left: 200px;
+}
+.hobby{
+    color:black;
+}
+body{
+    text-align:center;
+    background-color:yellow;color:black;
+}
+    
