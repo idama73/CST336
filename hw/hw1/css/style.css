@@ -1,0 +1,76 @@
+
+nav a {
+    
+    padding: 4px;
+  
+  color: red; 
+  
+  text-decoration: none;
+  
+  margin: 0;
+
+}
+
+nav a:hover {
+    
+    color: blue;
+    
+    font-size: 20pt; /* to comment*/
+}
+
+h1{
+    
+  text-decoration: underline;  
+}
+
+ol li{
+    font-size: 15pt;
+    
+    text-align: left;
+    
+    
+    
+}
+
+p{
+    font-size: 15pt;
+    
+    text-align: left; 
+}
+
+.one{
+    color: blue;
+    
+    font-size: larger;
+}
+
+
+
+
+
+body{
+         
+         background-color: #FFFFFF		 !important;
+         
+         }
+            
+       
+        
+         hr {
+                width: 50%;
+                color: red;
+            }
+        
+
+ul{ 
+    text-align-last:left;
+    padding-left: 120px;
+}
+.hobby{
+    color:black;
+}
+body{
+    text-align:center;
+    background-color:wheat;color:black;
+}
+    
