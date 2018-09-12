@@ -1,4 +1,6 @@
 
+
+
 nav a {
     
     padding: 4px;
@@ -8,6 +10,8 @@ nav a {
   text-decoration: none;
   
   margin: 0;
+  
+  text-align: center;
 
 }
 
@@ -16,9 +20,12 @@ nav a:hover {
     color: blue;
     
     font-size: 20pt; /* to comment*/
+    
 }
 
 h1{
+    
+    text-align: center;
     
   text-decoration: underline;  
 }
@@ -73,4 +80,5 @@ body{
     text-align:center;
     background-color:wheat;color:black;
 }
+
     
