@@ -1,28 +1,33 @@
+<?php
+       
+     include'inc/work.php'; 
+      
+?>
+        
 <!DOCTYPE html>
 <html>
     <head>
-        <title> 777 Slot Machine </title>
+        <title>777 Slot Machine </title>
+        <style>
+            @import url("css/styles.css");
+        </style>
     </head>
     <body>
         
+        
+        
+        
+        
+        <div id="main">
         <?php
-        
-        $random_value = rand(0,2); //generate a random number from 0 to 2
-        
-        echo $random_value;
-        
-        $symbol ="orange";
-        
-
-        echo "<img src ='img/$symbol.png'alt='$symbol' title='.ucfirst($symbol)'/>";
-        
+            play();
         ?>
+        <form>
+            <input type="submit" value="Spin!"/>
+        </form>
         
-        
-      
-        
-     
-
+        </div>
+       
 
     </body>
 </html>
