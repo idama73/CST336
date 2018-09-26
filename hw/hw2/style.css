@@ -1,0 +1,31 @@
+body {
+
+}
+
+img.animal {
+	position: absolute;
+}
+
+div.animalContainer {
+	width: 1300px;
+	height: 800px;
+	position: relative;
+	left: 0;
+	top: 0;
+	background-color: blue;
+}
+
+a.refresh {
+background-color: #c00;
+color: #fff;
+padding-top: 4px;
+padding-right: 8px;
+padding-bottom: 4px;
+padding-left: 4px;
+font-family: Verdana, sans-serif;
+border: 2px dotted #700;
+z-index: 300;
+position: relative;
+left: 620px;
+top: 30px;
+}

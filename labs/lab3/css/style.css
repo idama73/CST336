@@ -1,0 +1,38 @@
+body{
+    font-family: arcadefont;
+    background: #00951E;
+    color: white;
+}
+.playerHand, .time {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+.time{
+    text-align: center;
+}
+.card {
+    margin: 0px 3px;
+}
+.individualScore{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+hr {
+    width: 90%;
+}
+form{
+    text-align: center;
+    margin-top: 5px;
+}
+input{
+    padding: 5px;
+    background-color: #E3E1B8;
+    
+}
+input:hover{
+  background-color: #46000D;
+  color: white;
+}
