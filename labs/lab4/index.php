@@ -128,5 +128,21 @@ if (isset($_GET["keyword"])) {
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
        
+       
+       <footer>
+            <hr>
+            
+            <center> 
+         
+             &COPY; 2018 Okumagba <br />
+            <strong>Disclaimer: </strong> the information in this webpage is fictitous, it is used for academic purposes only. <br />
+           
+               
+                <img src = "../../img/csumb_logo.jpg" width = "120"alt ="CSUMB Logo" />
+                                                
+                                                <img src = "../../img/buddy.jpg" width ="80"alt ="buddy program Logo" />
+</center>
+               </footer>
+
     </body>
 </html>
