@@ -1,16 +1,21 @@
-    body{
-        opacity:0.9;
-        width:100%;
-        text-align:center;
-        color:red;
-    }
-    
     input {
-        font-size: 3em;
+        font-size: 2em;
         color: black;
+        margin-top: 7px;
+    }
+    select{
+        margin-top: 7px;
     }
     
-    #carousel-example-generic {
+    #carouselExampleIndicators {
          margin: 0 auto;   
-         width: 700px;
+         width: 500px;
+    }
+    .radio{
+        display: inline-block;
+        text-align: left;
+        background-color: white;
+        color: black;
+        padding: 7px;
+        margin-left: 7px;
     }

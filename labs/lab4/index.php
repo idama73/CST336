@@ -2,13 +2,13 @@
 
 $backgroundImage = "img/cars.jpg";
 
-if (isset($_GET["keyword"])) {  
+if (isset($_GET["keyword"])) {  //checks if the form has been submitted
 
     include "api/pixabayAPI.php";
 
     $keyword = $_GET["keyword"];
     
-    if (!empty($_GET['category'])) { 
+    if (!empty($_GET['category'])) { //user selected a category
         
         $keyword = $_GET['category'];
         
@@ -20,12 +20,21 @@ if (isset($_GET["keyword"])) {
 
    $imageURLs = getImageURLs($keyword, $_GET["layout"]);
    //print_r($imageURLs);
-   shuffle($imageURLs);
+   //shuffle($imageURLs);
 
    $backgroundImage = $imageURLs[array_rand($imageURLs)];
   
 }
 
+function formIsValid() {
+    
+    if (empty($_GET['keyword']) && empty($_GET['category'])) {
+        echo "<h1> ERROR!!! You must type a keyword or select a category</h1>";
+        return false;
+    }
+    return true;
+            
+}
 
 ?>
 
@@ -37,12 +46,15 @@ if (isset($_GET["keyword"])) {
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="css/styles.css" type="text/css" />
         
-        <style>
+         <style>
             
             body {
                 
                 background-image: url(<?=$backgroundImage?>);
                 background-size: cover;
+                opacity:0.9;
+                text-align:center;
+                color: reds;
                 
             }
             
@@ -62,28 +74,38 @@ if (isset($_GET["keyword"])) {
 
         <form method="GET">
             
-            <input type="text" name="keyword" size="15" placeholder="Keyword"/>
+            <input type="text" name="keyword" size="15" placeholder="Keyword" value="<?=$_GET['keyword']?>" />
+            <br>
+            <input type="radio" name="layout" value="horizontal" 
+              <?php
+              
+                if ($_GET['layout'] == "horizontal") {
+                    echo " checked";
+                }
+              
+              ?>
             
-            <input type="radio" name="layout" value="horizontal"> Horizontal
-            <input type="radio" name="layout" value="vertical"> Vertical
+            > Horizontal
+            <input type="radio" name="layout" value="vertical"  
+               <?= ($_GET['layout'] == "vertical")?" checked":"" ?>  > Vertical
         
-
+           <br>
             <select name="category">
                 <option value=""> Select One </option>
-                <option value="cars"> Bugatti</option>
-                <option>Ferrari</option>
-                <option>Lamborghini</option>
-                <option>McLaren</option>
+                <option value="food">chocolate</option>
+                <option>fruits</option>
+                <option>vegetables</option>
+                <option  <?= ($_GET['category'] == "Rice")?" selected":"" ?> >rice</option>
             </select>
-            
-            <input type="submit" name="submit" value="Search"/>
+            <br>
+            <input type="submit" name="submitBtn" value="Search" />
             
         </form>
 
         <!--<h1>You must type a keyword or select a category</h1>-->
         
         <?php 
-        if (isset($imageURLs)) { ?>
+        if (isset($imageURLs) &&  formIsValid() ) { ?>
         
            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -97,11 +119,16 @@ if (isset($_GET["keyword"])) {
               <div class="carousel-inner">
                 <?php
                   for ($i = 0; $i < 9; $i++) {
+                      do {
+                       $randomIndex = array_rand($imageURLs);  // rand(0, count($imageURLs)-1);
+                      }
+                      while (!isset($imageURLs[$randomIndex]));
                       echo "<div class=\"carousel-item ";
                       echo ($i == 0)?" active ":"";
                       echo "\">";
-                      echo "<img class=\"d-block w-100\" src=\"".$imageURLs[$i]."\" alt=\"Second slide\">";
+                      echo "<img class=\"d-block w-100\" src=\"".$imageURLs[$randomIndex]."\" alt=\"Second slide\">";
                       echo "</div>";
+                      unset($imageURLs[$randomIndex]);
                   }
                  ?>
               </div>
@@ -127,8 +154,7 @@ if (isset($_GET["keyword"])) {
 
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-       
-       
+     
        <footer>
             <hr>
             
@@ -140,7 +166,7 @@ if (isset($_GET["keyword"])) {
                
                 <img src = "../../img/csumb_logo.jpg" width = "120"alt ="CSUMB Logo" />
                                                 
-                                                <img src = "../../img/buddy.jpg" width ="80"alt ="buddy program Logo" />
+                <img src = "../../img/buddy.jpg" width ="80"alt ="buddy program Logo" />
 </center>
                </footer>
 

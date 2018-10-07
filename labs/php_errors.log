@@ -1,0 +1,25 @@
+[03-Oct-2018 20:56:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/labs/lab3/arrays.php on line 75
+[03-Oct-2018 21:35:47 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '(' in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 30
+[03-Oct-2018 21:35:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '(' in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 30
+[03-Oct-2018 21:36:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '(' in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 30
+[06-Oct-2018 18:06:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting '(' in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 30
+[06-Oct-2018 18:21:15 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 120
+[06-Oct-2018 18:21:15 UTC] PHP Stack trace:
+[06-Oct-2018 18:21:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[06-Oct-2018 18:21:15 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab4/index.php:120
+[07-Oct-2018 04:27:46 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 99
+[07-Oct-2018 04:27:46 UTC] PHP Stack trace:
+[07-Oct-2018 04:27:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[07-Oct-2018 04:27:46 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab4/index.php:99
+[07-Oct-2018 04:28:36 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 99
+[07-Oct-2018 04:28:36 UTC] PHP Stack trace:
+[07-Oct-2018 04:28:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[07-Oct-2018 04:28:36 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab4/index.php:99
+[07-Oct-2018 04:30:24 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 99
+[07-Oct-2018 04:30:24 UTC] PHP Stack trace:
+[07-Oct-2018 04:30:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[07-Oct-2018 04:30:24 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab4/index.php:99
+[07-Oct-2018 04:48:31 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/labs/lab4/index.php on line 120
+[07-Oct-2018 04:48:31 UTC] PHP Stack trace:
+[07-Oct-2018 04:48:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/labs/lab4/index.php:0
+[07-Oct-2018 04:48:31 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/labs/lab4/index.php:120
