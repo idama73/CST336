@@ -98,7 +98,8 @@ function formIsValid() {
                 <option  <?= ($_GET['category'] == "Rice")?" selected":"" ?> >rice</option>
             </select>
             <br>
-            <input type="submit" name="submitBtn" value="Search" />
+            <input type="submit" name="submitBtn" value="Search
+            " />
             
         </form>
 
