@@ -21,9 +21,18 @@ if(isset($_POST['itemName'])){
     $newItem['price'] = $_POST['itemPrice'];
     $newItem['image'] = $_POST['itemImage'];
     
+    foreach($_SESSION['CART'] as $item){
+        if($newItem['id'] == $item['id']){
+            $item['quantity'] +=1;
+            $found = true;
+        }
+    }
     
     
+    if($found != true){
+        $newItem['quantity'] = 1;
     array_push($_SESSION['cart'], $newItem);
+    }
 }
 ?>
 
@@ -52,6 +61,9 @@ if(isset($_POST['itemName'])){
                     <ul class='nav navbar-nav'>
                         <li><a href='index.php'>Home</a></li>
                         <li><a href='scart.php'>Cart</a></li>
+                        <span class = 'glyphicon  glyphicon-shopping-cart' aria-hidden='true'>
+                            
+                        </span> Cart: <?php displayCartCount(); ?> </a></li>
                     </ul>
                 </div>
             </nav>
@@ -68,7 +80,7 @@ if(isset($_POST['itemName'])){
             </form>
             
             <!-- Display Search Results -->
-            
+            <?php displayResults(); ?>
         </div>
     </div>
     </body>

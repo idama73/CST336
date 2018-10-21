@@ -1,0 +1,7 @@
+[21-Oct-2018 17:53:58 UTC] PHP Warning:  array_rand() expects parameter 2 to be long, string given in /home/ubuntu/workspace/cst336/Midterm_practice/midterm_practice1.php on line 83
+[21-Oct-2018 17:53:58 UTC] PHP Stack trace:
+[21-Oct-2018 17:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Midterm_practice/midterm_practice1.php:0
+[21-Oct-2018 17:53:58 UTC] PHP   2. array_rand() /home/ubuntu/workspace/cst336/Midterm_practice/midterm_practice1.php:83
+[21-Oct-2018 17:53:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/Midterm_practice/midterm_practice1.php on line 84
+[21-Oct-2018 17:53:58 UTC] PHP Stack trace:
+[21-Oct-2018 17:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Midterm_practice/midterm_practice1.php:0
