@@ -1,41 +1,46 @@
 <?php
-
 include 'functions.php';
-
 session_start();
 
 if(!isset($_SESSION['cart'])){
     $_SESSION['cart'] = array();
 }
 
-if (isset($_Get['query'])) {
-    //Get access to our API function
-    include 'wmapi.php';
-    $items = getProducts($_GET['query']);
+//Checks to see if the form is submitted
+    if(isset($_GET['query'])){
+        //Get access to our API function
+        include 'wmapi.php';
+        $items = getProducts($_GET['query']);
+        //print_r($items);
+    }
+
+//check to see if an iteam has been added to the cart
+if(isset($_POST['itemName'])){
+    //Creating an array to hold an item's properties.
+    $newItem = array();
+    $newItem['name']  = $_POST['itemName'];
+    $newItem['price']    = $_POST['itemPrice'];
+    $newItem['img'] = $_POST['itemImg'];
+    $newItem['id'] = $_POST['itemId'];
+    
+    //Check to see if other items with this id are in the array
+// It so, this item isn't new. Only update quantity
+// Must be passed by reference so that each item can be updated!
+foreach($_SESSION['cart'] as &$item){
+    if($newItem['id'] == $item['id']){
+        $item['quantity'] +=1;
+        $found = true;
+    }
 }
 
-if(isset($_POST['itemName'])){
-    $newItem = array();
-    $newItem['name'] = $_POST['itemName'];
-    $newItem['id'] = $_POST['itemId'];
-    $newItem['price'] = $_POST['itemPrice'];
-    $newItem['image'] = $_POST['itemImage'];
-    
-    foreach($_SESSION['CART'] as $item){
-        if($newItem['id'] == $item['id']){
-            $item['quantity'] +=1;
-            $found = true;
-        }
-    }
-    
-    
-    if($found != true){
-        $newItem['quantity'] = 1;
+//else add it to array
+if($found !=true){
+    $newItem['quantity'] = 1;
     array_push($_SESSION['cart'], $newItem);
     }
 }
-?>
 
+?>
 
 <!DOCTYPE html>
 <html>
@@ -60,10 +65,9 @@ if(isset($_POST['itemName'])){
                     </div>
                     <ul class='nav navbar-nav'>
                         <li><a href='index.php'>Home</a></li>
-                        <li><a href='scart.php'>Cart</a></li>
-                        <span class = 'glyphicon  glyphicon-shopping-cart' aria-hidden='true'>
-                            
-                        </span> Cart: <?php displayCartCount(); ?> </a></li>
+                        <li><a href='scart.php'>
+                        <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'>
+                        </span> Cart: <?php displayCartCount();?> </a></li>
                     </ul>
                 </div>
             </nav>
@@ -83,5 +87,20 @@ if(isset($_POST['itemName'])){
             <?php displayResults(); ?>
         </div>
     </div>
+    
+    <footer>
+            <hr>
+            
+            <center> 
+         
+             &COPY; 2018 Okumagba <br />
+            <strong>Disclaimer: </strong> the information in this webpage is fictitous, it is used for academic purposes only. <br />
+           
+               
+                <img src = "../../img/csumb_logo.jpg" width = "120"alt ="CSUMB Logo" />
+                                                
+                                                <img src = "../../img/buddy.jpg" width ="80"alt ="buddy program Logo" />
+</center>
+               </footer>
     </body>
 </html>
