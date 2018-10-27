@@ -1,10 +1,11 @@
 <?php
 
+//start from here // connect 
 $connect = mysqli_connect('localhost', 'root', '', 'midprac'); //setting up the connection handler // default
 
 print '<h3>Exercise 1</h3>';
 $popQuery = 'SELECT town_name, population  FROM mp_town WHERE population > 50000 AND population < 80000'; //query string
-$result = mysqli_query($connect, $popQuery);
+$result = mysqli_query($connect, $popQuery); //popQuery 
 while($row = mysqli_fetch_array ($result)){ //row is always an array that consists of town name and population
  print $row['town_name'].' - '.$row['population']; //print_r 
 }
@@ -46,3 +47,8 @@ while($row = mysqli_fetch_array ($result)){ //row is always an array that consis
 }
  
 print '</table>';
+
+
+
+//'SELECT * FROM `mp_town` ORDER BY RAND () LIMIT 1
+
