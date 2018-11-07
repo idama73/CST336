@@ -1,0 +1,19 @@
+[06-Nov-2018 02:36:48 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/TeamProject/336project/display.php on line 46
+[06-Nov-2018 02:50:03 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/TeamProject/336project/functions.php on line 97
+[06-Nov-2018 02:50:03 UTC] PHP Stack trace:
+[06-Nov-2018 02:50:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/TeamProject/336project/display.php:0
+[06-Nov-2018 03:09:03 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/TeamProject/336project/functions.php on line 99
+[06-Nov-2018 03:09:03 UTC] PHP Stack trace:
+[06-Nov-2018 03:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/TeamProject/336project/form.php:0
+[06-Nov-2018 03:09:47 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/TeamProject/336project/functions.php on line 99
+[06-Nov-2018 03:09:47 UTC] PHP Stack trace:
+[06-Nov-2018 03:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/TeamProject/336project/form.php:0
+[06-Nov-2018 03:13:52 UTC] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home/ubuntu/workspace/TeamProject/336project/functions.php on line 99
+[06-Nov-2018 03:13:52 UTC] PHP Stack trace:
+[06-Nov-2018 03:13:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/TeamProject/336project/form.php:0
+[06-Nov-2018 03:14:48 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home/ubuntu/workspace/TeamProject/336project/functions.php on line 102
+[06-Nov-2018 03:14:48 UTC] PHP Stack trace:
+[06-Nov-2018 03:14:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/TeamProject/336project/form.php:0
+[06-Nov-2018 03:15:11 UTC] PHP Parse error:  syntax error, unexpected '>>' (T_SR) in /home/ubuntu/workspace/TeamProject/336project/functions.php on line 113
+[06-Nov-2018 03:15:11 UTC] PHP Stack trace:
+[06-Nov-2018 03:15:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/TeamProject/336project/form.php:0

@@ -85,7 +85,7 @@ function filterProducts() {
         <title> Lab 6: Ottermart Product Search</title>
     </head>
     <body>
-        
+        <center> 
         <h1> Ottermart </h1>
         <h2> Product Search </h2>
         
@@ -107,12 +107,14 @@ function filterProducts() {
             Name <input type="radio" name="orderBy" value="productName">
             <br>
             <input type="submit" name="submit" value="Search!"/>
+            </center>
         </form>
         <br>
         <hr>
         
         <?= filterProducts() ?>
         
+    
     
       <footer>
             <hr>
