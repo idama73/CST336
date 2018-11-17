@@ -1,5 +1,3 @@
-
-//****************** VARIABLES ******************
 var selectedWord = "";
 var selectedHint = "";
 var board = "";
@@ -15,14 +13,10 @@ var words = [{ word: "snake", hint: "It's a reptile" },
              { word: "beetle", hint: "It's an insect" }];
 
 
-//****************** LISTENERS ******************
 
-// Start the game when the HTML page is loaded.
 window.onload = startGame();
 
-// When the replay button is displayed 
 $(".replayBtn").on("click", function() {
-    // Reloading page from cache.
     //document.location.reload();
     $('#lost').hide();
     $('#won').hide();
