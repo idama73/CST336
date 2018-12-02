@@ -1,13 +1,12 @@
-
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>AJAX: Sign Up Page</title>
-
-    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-    <script>
+    <head>
+        <meta charset="UTF-8">
+        <title>AJAX: Sign Up Page</title>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
+        
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script>
         function validateForm() {
             var username = $("#username").val();
             var password = $("#password").val();
@@ -101,10 +100,10 @@
     <form onsubmit="return validateForm()">
         <fieldset>
             <legend>Sign Up</legend>
-            First Name: <input type="text"><br> Last Name: <input type="text"><br> Email: <input type="text"><br> Phone Number:<input type="text"><br><br> Zip Code: <input type="text" id="zip"><br> 
-            City: <span id="city"></span>
-            <br> Latitude: <span id="latitude"></span>
-            <br> Longitude: <span id="longitude"></span>
+            First Name: <input type="text"><br> Last Name: <input type="text"><br> Email: <input type="text"><br> Phone Number:<input type="text"><br><br> Zip Code: <input type="text" id="zip"><br> City: <span id="city"></span>
+            <br> Latitude:
+            <br> Longitude:
+            <br><br> State:
             <select id="state">
                     <option value="">Select One</option>
                     <option value="ca"> California</option>
@@ -117,22 +116,5 @@
             <input type="submit" value="Sign up!">
         </fieldset>
     </form>
-    
-    <footer>
-            <hr>
-             
-            <center>
-         
-             &COPY; 2018 Okumagba <br />
-            <strong>Disclaimer: </strong> the information in this webpage is fictitous, it is used for academic purposes only. <br />
-           
-                <img src = "../../img/csumb_logo.jpg" width ="120" alt ="CSUMB Logo" />
-                
-                <img src = "../../img/buddy.jpg" width ="80" alt ="buddy program Logo" />
-
-                </center>
-            </footer>
 
 </body>
-
-</html>
