@@ -43,13 +43,14 @@
                 //alert(username);
                 $.ajax({
                     type: "GET",
-                    url: "checkUsername.php",
+                    url: "checkusername.php",
                     dataType: "json",
                     data: { "username": username },
                     success: function(data, status) {
                      
                         if(!data) {
-                            $("#usernameError").html("username is available");
+                            document.getElementById("username").innerHTML = "user";
+                            $("#usernameError").html("username is error");
                             $("#usernameError").css("color", "green");
                         } else {
                              $("#usernameError").html("username is not available");

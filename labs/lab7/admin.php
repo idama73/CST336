@@ -46,7 +46,7 @@ validateSession();
               <input type="submit" value="Add New Product">
           </form>
          <form action="logout.php">
-              <input type="submit" value="Logout">
+              <input type="submit" value="Logout" >
           </form>
 
            <br><br>
