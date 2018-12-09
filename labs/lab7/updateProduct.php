@@ -38,6 +38,7 @@ if (isset($_GET['productId'])) {
               $categories = getCategories();
               
               foreach ($categories as $category) {
+                   
                   
                   echo "<option  "; 
                   echo  ($category['catId']==$productInfo['catId'])?"selected":"";

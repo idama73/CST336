@@ -3,7 +3,7 @@ session_start();
 
 include '../../inc/dbConnection.php';
 $dbConn = startConnection("ottermart");
-include 'inc/functions.php';
+include 'functions.php';
 validateSession();
 
 if (isset($_GET['productId'])) {
@@ -23,9 +23,9 @@ if (isset($_GET['productId'])) {
     </head>
     <body>
     
-    <h3><?=$productInfo['productName']?></h3>
-     <?=$productInfo['productDescription']?><br>
-     <img src='<?=$productInfo['productImage']?>' height='75'/>
+    <h3><?=$productInfo['team']?></h3>
+     <?=$productInfo['description']?><br>
+     <img src='<?=$productInfo['image']?>' height='75'/>
  
     </body>
 </html>
