@@ -146,5 +146,19 @@ if (isset($_POST['itemName'])) {
   </div>
 </div>
 
+ <footer>
+            <hr>
+            
+            <center> 
+         
+             &COPY; 2018 Okumagba <br />
+            <strong>Disclaimer: </strong> the information in this webpage is fictitous, it is used for academic purposes only. <br />
+           
+               
+
+</center>
+               </footer>
+
+
   </body>
 </html>
