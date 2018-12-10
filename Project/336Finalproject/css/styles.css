@@ -5,7 +5,8 @@ body
     border: solid;
     border-radius: 10px;
     border-color: #275399;
-    background-color: #b6fad9;
+    background-color: #e6d3b3
+;
 }
 
 input 
@@ -15,5 +16,6 @@ input
 
 .results
 {
-    background-color: #b6fad8;
+    background-color: #cc6866
+;
 }
