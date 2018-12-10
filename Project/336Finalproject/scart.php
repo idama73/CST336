@@ -33,12 +33,15 @@ if (isset($_POST['itemId'])) {
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <title>Shopping Cart</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+            <link rel="stylesheet" href="css/styles.css" type="text/css" />
     </head>
     <body>
         <div class='container'>
             <div class='text-center'>
                 
-                <!-- Bootstrap Navagation Bar -->
+                 Bootstrap Navagation Bar 
                 <nav class='navbar navbar-default - navbar-fixed-top'>
                     <div class='container-fluid'>
                         <div class='navbar-header'>
@@ -53,7 +56,7 @@ if (isset($_POST['itemId'])) {
                 </nav>
                 <br /> <br /> <br />
                 <h2>Shopping Cart</h2>
-                <!-- Cart Items -->
+                 Cart Items 
                 <?= displayCart(); ?>
                 <form>
                     <input type="submit" name="clear" value="Clear cart">
