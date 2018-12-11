@@ -12,10 +12,17 @@ if (isset($_GET['updateProduct'])) { //checks whether the form was submitted
     $price =  $_GET['price'];
     $catId =  $_GET['catId'];
     $image = $_GET['productImage'];
+    echo($_GET['productId']);
     
     
-    $sql = "INSERT INTO sc_product (team, description,image,price, catId, prodId) 
-            VALUES (:productName, :productDescription, :productImage, :price, :catId, 25);";
+    $sql = "UPDATE bk_product 
+            SET team = :productName,
+               description = :productDescription,
+               price = :price,
+               catId = :catId,
+               image = :productImage
+            WHERE prodId = " . $_GET['productId'];
+            
     $np = array();
     $np[":productName"] = $productName;
     $np[":productDescription"] = $description;
