@@ -1,11 +1,8 @@
 
 
 <?php
-include 'functions.php';
-include 'display.php';
-
-
 session_start();
+include 'functions.php';
 
 
 include '../../inc/dbConnection.php';

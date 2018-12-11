@@ -129,3 +129,77 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(27): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 27
+[11-Dec-2018 02:51:15 UTC] PHP Warning:  include(../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 4
+[11-Dec-2018 02:51:15 UTC] PHP Stack trace:
+[11-Dec-2018 02:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/index.php:0
+[11-Dec-2018 02:51:15 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/index.php:5
+[11-Dec-2018 02:51:15 UTC] PHP Warning:  include(): Failed opening '../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 4
+[11-Dec-2018 02:51:15 UTC] PHP Stack trace:
+[11-Dec-2018 02:51:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/index.php:0
+[11-Dec-2018 02:51:15 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/index.php:5
+[11-Dec-2018 02:51:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'books'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php(5): startConnection('books')
+#2 /home/ubuntu/workspace/cst336/Project/336Finalproject/index.php(5): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 20
+[11-Dec-2018 02:51:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'books'' in /home/ubuntu/workspace/cst336/inc/dbConnection.php:20
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/inc/dbConnection.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php(5): startConnection('books')
+#2 /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php(4): include('/home/ubuntu/wo...')
+#3 {main}
+  thrown in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 20
+[11-Dec-2018 02:51:49 UTC] PHP Warning:  include(inc/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 6
+[11-Dec-2018 02:51:49 UTC] PHP Stack trace:
+[11-Dec-2018 02:51:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:51:49 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:4
+[11-Dec-2018 02:51:49 UTC] PHP Warning:  include(): Failed opening 'inc/functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 6
+[11-Dec-2018 02:51:49 UTC] PHP Stack trace:
+[11-Dec-2018 02:51:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:51:49 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:4
+[11-Dec-2018 02:51:49 UTC] PHP Fatal error:  Cannot redeclare startConnection() (previously declared in /home/ubuntu/workspace/cst336/inc/dbConnection.php:4) in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 4
+[11-Dec-2018 02:51:49 UTC] PHP Stack trace:
+[11-Dec-2018 02:51:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:52:04 UTC] PHP Fatal error:  Cannot redeclare validateSession() (previously declared in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php:9) in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 9
+[11-Dec-2018 02:52:04 UTC] PHP Stack trace:
+[11-Dec-2018 02:52:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:52:04 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:4
+[11-Dec-2018 02:52:15 UTC] PHP Fatal error:  Cannot redeclare validateSession() (previously declared in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php:8) in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 8
+[11-Dec-2018 02:52:15 UTC] PHP Stack trace:
+[11-Dec-2018 02:52:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:52:15 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:4
+[11-Dec-2018 02:52:28 UTC] PHP Fatal error:  Cannot redeclare sampleData() (previously declared in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php:8) in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 15
+[11-Dec-2018 02:52:28 UTC] PHP Stack trace:
+[11-Dec-2018 02:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:52:28 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:4
+[11-Dec-2018 02:52:44 UTC] PHP Fatal error:  Cannot redeclare displayCategories() (previously declared in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php:17) in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 32
+[11-Dec-2018 02:52:44 UTC] PHP Stack trace:
+[11-Dec-2018 02:52:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:52:44 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:4
+[11-Dec-2018 02:54:03 UTC] PHP Fatal error:  Cannot redeclare getCategories() (previously declared in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php:33) in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 43
+[11-Dec-2018 02:54:03 UTC] PHP Stack trace:
+[11-Dec-2018 02:54:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:54:03 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:4
+[11-Dec-2018 02:54:53 UTC] PHP Fatal error:  Cannot redeclare sampleData() (previously declared in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php:7) in /home/ubuntu/workspace/cst336/Project/336Finalproject/functions.php on line 7
+[11-Dec-2018 02:54:53 UTC] PHP Stack trace:
+[11-Dec-2018 02:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:54:53 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:5
+[11-Dec-2018 02:55:47 UTC] PHP Fatal error:  Cannot redeclare startConnection() (previously declared in /home/ubuntu/workspace/cst336/inc/dbConnection.php:4) in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 4
+[11-Dec-2018 02:55:47 UTC] PHP Stack trace:
+[11-Dec-2018 02:55:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:56:02 UTC] PHP Fatal error:  Cannot redeclare startConnection() (previously declared in /home/ubuntu/workspace/cst336/inc/dbConnection.php:4) in /home/ubuntu/workspace/cst336/inc/dbConnection.php on line 4
+[11-Dec-2018 02:56:02 UTC] PHP Stack trace:
+[11-Dec-2018 02:56:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/admin.php:0
+[11-Dec-2018 02:56:13 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 6
+[11-Dec-2018 02:56:13 UTC] PHP Stack trace:
+[11-Dec-2018 02:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:0
+[11-Dec-2018 02:56:59 UTC] PHP Fatal error:  Call to undefined function validateSession() in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 7
+[11-Dec-2018 02:56:59 UTC] PHP Stack trace:
+[11-Dec-2018 02:56:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:0
+[11-Dec-2018 02:58:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php(28): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 28
