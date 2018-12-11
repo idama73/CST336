@@ -66,5 +66,7 @@ if (isset($_GET['addProduct'])) { //checks whether the form was submitted
            <input type="submit" name="addProduct" value="Add Product">
         </form>
 
+
+         <a href = 'admin.php' class = 'btn btn-success'> Admin page</a>
     </body>
 </html>

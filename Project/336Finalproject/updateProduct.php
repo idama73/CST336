@@ -5,6 +5,29 @@ $dbConn = startConnection("ottermart");
 include 'functions.php';
 
 
+if (isset($_GET['updateProduct'])) { //checks whether the form was submitted
+    
+    $productName = $_GET['productName'];
+    $description =  $_GET['description'];
+    $price =  $_GET['price'];
+    $catId =  $_GET['catId'];
+    $image = $_GET['productImage'];
+    
+    
+    $sql = "INSERT INTO sc_product (team, description,image,price, catId) 
+            VALUES (:productName, :productDescription, :productImage, :price, :catId);";
+    $np = array();
+    $np[":productName"] = $productName;
+    $np[":productDescription"] = $description;
+    $np[":productImage"] = $image;
+    $np[":price"] = $price;
+    $np[":catId"] = $catId;
+    
+    $stmt = $dbConn->prepare($sql);
+    $stmt->execute($np);
+    echo "New Product was added!";
+}
+
 if (isset($_GET['productId'])) {
 
   $productInfo = getProductInfo($_GET['productId']);    
@@ -58,6 +81,7 @@ if (isset($_GET['productId'])) {
            <input type="submit" name="updateProduct" value="Update Product">
         </form>
         
-        
+         <a href = 'admin.php' class = 'btn btn-success'> Admin page</a>
+
     </body>
 </html>
