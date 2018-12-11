@@ -14,8 +14,8 @@ if (isset($_GET['updateProduct'])) { //checks whether the form was submitted
     $image = $_GET['productImage'];
     
     
-    $sql = "INSERT INTO sc_product (team, description,image,price, catId) 
-            VALUES (:productName, :productDescription, :productImage, :price, :catId);";
+    $sql = "INSERT INTO sc_product (team, description,image,price, catId, prodId) 
+            VALUES (:productName, :productDescription, :productImage, :price, :catId, 25);";
     $np = array();
     $np[":productName"] = $productName;
     $np[":productDescription"] = $description;

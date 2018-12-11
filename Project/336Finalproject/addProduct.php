@@ -3,7 +3,7 @@
 include '../../inc/dbConnection.php';
 include 'functions.php';
 $dbConn = startConnection("ottermart");
-
+validateSession();
 
 if (isset($_GET['addProduct'])) { //checks whether the form was submitted
     
