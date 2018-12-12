@@ -12,6 +12,8 @@ body
 input 
 {
      color: #e93939;
+     margin-top: 5px;
+     margin-bottom: 5px;
 }
 
 .results
