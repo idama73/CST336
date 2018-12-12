@@ -8,6 +8,7 @@ validateSession();
 
 if (isset($_GET['addProduct'])) { //checks whether the form was submitted
     
+    
     $productName = $_GET['productName'];
     $description =  $_GET['description'];
     $price =  $_GET['price'];

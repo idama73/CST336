@@ -4,19 +4,16 @@ include '../../inc/dbConnection.php';
 $dbConn = startConnection("ottermart");
 include 'functions.php';
 
-
 if (isset($_GET['updateProduct'])) { //checks whether the form was submitted
     
     $productName = $_GET['productName'];
-    $description =  $_GET['description'];
+    $description = $_GET['description'];
     $price =  $_GET['price'];
     $catId =  $_GET['catId'];
     $image = $_GET['productImage'];
-    echo($_GET['productId']);
     
-    
-    $sql = "UPDATE bk_product 
-            SET team = :productName,
+    $sql = "UPDATE sc_product 
+            SET team= :productName,
                description = :productDescription,
                price = :price,
                catId = :catId,
@@ -24,11 +21,11 @@ if (isset($_GET['updateProduct'])) { //checks whether the form was submitted
             WHERE prodId = " . $_GET['productId'];
             
     $np = array();
-    $np[":productName"] = $productName;
-    $np[":productDescription"] = $description;
-    $np[":productImage"] = $image;
-    $np[":price"] = $price;
-    $np[":catId"] = $catId;
+    $np[':productName'] = $productName;
+    $np[':productDescription'] = $description;
+    $np[':price'] = $price;
+    $np[':catId'] = $catId;
+    $np[':productImage'] = $image;
     
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($np);
@@ -61,6 +58,7 @@ if (isset($_GET['productId'])) {
         <h1> Update a Product here </h1>
         
         <form>
+            <input type="hidden" name="productId" value="<?=$productInfo['prodId']?>">
            Product name: <input type="text" name="productName" value="<?=$productInfo['team']?>"><br>
            Description: <textarea name="description" cols="50" rows="4"> <?=$productInfo['description']?> </textarea><br>
            Price: <input type="text" name="price" value="<?=$productInfo['price']?>"><br>

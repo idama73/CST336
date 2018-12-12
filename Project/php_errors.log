@@ -228,3 +228,134 @@ Stack trace:
 #0 /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php(28): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 28
+[11-Dec-2018 03:26:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:34
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(34): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 34
+[11-Dec-2018 03:26:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 03:26:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 03:27:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 03:28:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 03:29:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 03:29:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 03:36:10 UTC] PHP Parse error:  syntax error, unexpected 'sc_product' (T_STRING) in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 24
+[11-Dec-2018 03:36:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 03:41:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 33
+[11-Dec-2018 03:55:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 04:52:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 18:00:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[11-Dec-2018 18:04:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 29
+[12-Dec-2018 03:33:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[12-Dec-2018 03:38:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 29
+[12-Dec-2018 03:38:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 29
+[12-Dec-2018 03:43:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 29
+[12-Dec-2018 03:49:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'' in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php(29): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/addProduct.php on line 29
+[12-Dec-2018 04:01:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[12-Dec-2018 04:03:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:32
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(32): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 32
+[12-Dec-2018 04:05:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(33): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 33
+[12-Dec-2018 04:07:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 31
+[12-Dec-2018 04:09:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 31
+[12-Dec-2018 04:09:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 31
+[12-Dec-2018 04:13:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 31
+[12-Dec-2018 04:18:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7' in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php:31
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php(31): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst336/Project/336Finalproject/updateProduct.php on line 31
