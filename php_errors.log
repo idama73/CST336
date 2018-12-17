@@ -171,3 +171,4 @@
 [24-Oct-2018 18:47:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/midtermprac1/index.php:0
 [24-Oct-2018 18:47:30 UTC] PHP   2. makeItinerary() /home/ubuntu/workspace/cst336/midtermprac1/index.php:73
 [24-Oct-2018 18:47:30 UTC] PHP   3. array_shift() /home/ubuntu/workspace/cst336/midtermprac1/inc/functions.php:80
+[17-Dec-2018 01:18:24 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/cst336/FinalPractice/functions.php on line 43
